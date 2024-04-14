@@ -1,0 +1,82 @@
+.run {
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.8) 50%
+  );
+  top: 60px;
+  right: 200px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 25px;
+  display: center;
+  margin: 30px 40px;
+}
+.run h2 {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #8e2de2;
+  font-size: 22px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+.run input {
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #8e2de2;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.run input:focus {
+  outline: none;
+}
+::placeholder {
+  color: #fff;
+  font-family: Arial;
+}
+.btnn {
+  width: 240px;
+  height: 40px;
+  background: #8e2de2;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+.btnn:hover {
+  background: #fff;
+  color: #ff7200;
+}
+.btnn a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.run .link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+.liw {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #fff;
+}

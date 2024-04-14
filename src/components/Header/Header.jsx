@@ -16,6 +16,7 @@ const Header = () => {
   const [showCart, setShowCart] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
   const { cartCount } = useContext(Context);
+
   const navigate = useNavigate();
   const handleScroll = () => {
     const offset = window.scrollY;

@@ -1,5 +1,6 @@
 import "./Banner.scss";
 import BannerImg from "../../../assets/banner-img.png";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -9,7 +10,9 @@ const Banner = () => {
           <h1>SELES</h1>
           <p></p>
           <div className="ctas">
-            <div className="banner-cat">Read More</div>
+            <div className="banner-cat">
+              <Link to="/login">Login Now</Link>
+            </div>
             <div className="banner-cat v2">Shop Now</div>
           </div>
         </div>
